@@ -3,26 +3,26 @@ import Monster from '../Monster';
 import Battle from './Battle';
 
 export default class PVE extends Battle {
-  public fighter: Fighter;
+  public player: Fighter;
   public environment: (Monster | Fighter | SimpleFighter) [];
 
   constructor(
-    fighter: Fighter, 
+    player: Fighter, 
     environment: (Monster | Fighter | SimpleFighter)[],
   ) {
-    super(fighter);
-    this.fighter = fighter;
+    super(player);
+    this.player = player;
     this.environment = environment;
   }
 
   fight(): number {
     this.environment
       .every((elem) => {
-        while (this.fighter.lifePoints > 0 && elem.lifePoints > 0) {
-          this.fighter.attack(elem);
-          elem.attack(this.fighter);
+        while (this.player.lifePoints > 0 && elem.lifePoints > 0) {
+          this.player.attack(elem);
+          elem.attack(this.player);
         }
-        return this.fighter.lifePoints >= 0;
+        return this.player.lifePoints >= 0;
       });
     return super.fight();
   }
