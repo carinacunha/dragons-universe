@@ -15,7 +15,7 @@ export default class PVE extends Battle {
     this.environment = environment;
   }
 
-  public fight(): number {
+  fight(): number {
     this.environment
       .every((elem) => {
         while (this.fighter.lifePoints > 0 && elem.lifePoints > 0) {
