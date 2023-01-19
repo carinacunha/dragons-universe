@@ -1,9 +1,7 @@
-import { Mage } from './Archetypes';
 import Battle, { PVE, PVP } from './Battle';
 import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
-import { Elf, Orc } from './Races';
 
 const player1 = new Character('Azog');
 const player2 = new Character('Legolas');
