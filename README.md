@@ -21,6 +21,6 @@ In this project, the principles of SOLID architecture and OOP principles were us
 ### :computer: Local ###
 1. Clone the repository: ```git clone git@github.com:carinacunha/dragons-universe.git```
 2. Navigate to the root of the repository: ```cd dragons-universe ```
-3. Install the dependencies: npm install
+3. Install the dependencies: ```npm install```
 
 **✨ This project was developed during the Full Stack Web Development course at Trybe**
