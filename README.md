@@ -1,10 +1,26 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Dragons Universe #
+![alt app](game.jpg "game img")
+
+In this project, the principles of SOLID architecture and OOP principles were used to create the structure of role-playing games, better known as RPG games (Role Playing Game).
+
+## Skills and Tools ##
+* Docker
+* Typescript and Nodejs;
+* Use the Object Oriented Paradigm (OOP);
+* Use the SOLID principle;
+
+## Guidelines to runnig API ##
+
+### :whale: Docker ###
+1. Clone the repository: ```git clone git@github.com:carinacunha/dragons-universe.git```
+2. Navigate to the root of the repository: ```cd dragons-universe ```
+3. Initialize the Docker containers: ```docker-compose up -d```
+4. Acess of container interactive terminal ```docker exec -it trybers_and_dragons bash```
+5. Install the dependencies: ```npm install ```
+
+### :computer: Local ###
+1. Clone the repository: ```git clone git@github.com:carinacunha/dragons-universe.git```
+2. Navigate to the root of the repository: ```cd dragons-universe ```
+3. Install the dependencies: npm install
+
+**✨ This project was developed during the Full Stack Web Development course at Trybe**
