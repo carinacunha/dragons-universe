@@ -5,7 +5,8 @@ In this project, the principles of SOLID architecture and OOP principles were us
 
 ## Skills and Tools ##
 * Docker
-* Typescript and Nodejs;
+* Typescrip
+* Nodejs
 * Use the Object Oriented Paradigm (OOP);
 * Use the SOLID principle;
 
