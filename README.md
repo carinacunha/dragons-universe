@@ -3,6 +3,9 @@
 
 In this project, the principles of SOLID architecture and OOP principles were used to create the structure of role-playing games, better known as RPG games (Role Playing Game).
 
+## Class Diagram ##
+![alt app](diagram.jpg "diagram img")
+
 ## Skills and Tools ##
 * Docker
 * Typescrip
